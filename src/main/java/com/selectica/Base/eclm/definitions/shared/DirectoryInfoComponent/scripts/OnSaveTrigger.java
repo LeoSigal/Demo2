@@ -90,6 +90,7 @@ public class OnSaveTrigger extends AbstractDataWriteScript<Boolean> {
                 }
             }
         }
+         info.setName("Hello Everyone");
         return true;
     }
 }
